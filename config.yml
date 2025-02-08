@@ -1,12 +1,12 @@
 baseURL: https://pollydrive.github.io
 languageCode: ru-ru
-title: schola
+title: σχολή
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: Школа – площадка для досуга
-    Content: σχολή (schola) – «досуг, свободное времяпровождение». Тут можно найти кружки по интересам, единомышленников и учителей
+    Title: 
+    Content: Конспекты просмотренного, прослушанного, прочитанного
 
   socialIcons: # optional
     # - name: "youtube"
