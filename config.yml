@@ -5,7 +5,7 @@ theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: 
+    Title: Школа
     Content: Конспекты просмотренного, прослушанного, прочитанного
 
   socialIcons: # optional
