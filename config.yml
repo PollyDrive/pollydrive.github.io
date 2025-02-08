@@ -17,7 +17,7 @@ params:
     #   url: "https://buymeacoffee.com/XXX"
     # - name: "rss"
     #   url: "https://XXX.github.io/index.xml"
-  ShowReadingTime: true
+  ShowReadingTime: false
   author: "Polly"
   contact: "@PollyDrive"
   feedlinks: true
