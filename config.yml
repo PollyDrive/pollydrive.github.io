@@ -11,19 +11,19 @@ params:
   socialIcons: # optional
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/UCfdvqLvTzcyw6iRnHq-JQZA"
-    - name: "telegram"
-      url: "https://t.me/PollyDrive"
+    # - name: "telegram"
+    #   url: "https://t.me/polly_station"
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
     # - name: "rss"
     #   url: "https://XXX.github.io/index.xml"
   ShowReadingTime: false
-  author: "Polly"
-  contact: "@PollyDrive"
-  feedlinks: true
+  # author: "Polly"
+  # contact: "@PollyDrive"
+  # feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
-
+  comments: true
  #Google Analytics 4 optional
   env: #production
   GoogleAnalytics: "G-00000XXXXX" 
@@ -31,7 +31,16 @@ params:
     changefreq: daily
     filename: sitemap.xml
     priority: 0.5
-
+services:
+  disqus:
+    shortname: alinekravetz
+taxonomies:
+  category: categories
+  authors: authors
+  works: works
+  series: series 
+  lecturer: lecturer
+  tag: tags
 outputs:
   home:
     - HTML
@@ -48,6 +57,18 @@ menu:
       name: Категории
       url: /categories/
       weight: 10
+    - identifier: authors
+      name: Авторы
+      url: /authors/
+      weight: 20
+    - identifier: works
+      name: Работы
+      url: /works/
+      weight: 20
+    - name: Series
+      pageRef: /works/series/
+      parent: Works
+      weight: 10
     - identifier: tags
       name: Теги
       url: /tags/
@@ -55,8 +76,10 @@ menu:
     - identifier: search
       name: Поиск
       url: /search/
-      weight: 20
-    - identifier: archive
-      name: Архив
-      url: /archives/
-      weight: 20
+      weight: 30
+
+    # - identifier: archive
+    #   name: Архив
+    #   url: /archives/
+    #   weight: 20
+

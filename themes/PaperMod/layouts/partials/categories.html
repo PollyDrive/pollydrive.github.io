@@ -1,0 +1,8 @@
+{{- $categories := .Params.categories -}}
+{{- if reflect.IsSlice $categories -}}
+  {{- range $categories }}
+    <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+  {{- end }}
+{{- else }}
+  <a href="/categories/{{ $categories | urlize }}">{{ $categories }}</a>
+{{- end }}

@@ -1,0 +1,8 @@
+{{- $authors := .Params.authors -}}
+{{- if reflect.IsSlice $authors -}}
+  {{- range $authors }}
+    <a href="/authors/{{ . | urlize }}">{{ . }}</a>
+  {{- end }}
+{{- else }}
+  <a href="/authors/{{ $authors | urlize }}">{{ $authors }}</a>
+{{- end }}

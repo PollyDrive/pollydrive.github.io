@@ -20,25 +20,51 @@
 {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+    {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+    {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
-{{- $author := (partial "author.html" .) }}
+<!-- {{- $author := (partial "author.html" .) }} -->
+{{- $authors := .Params.authors }}
 {{- $tags := (partial "tags.html" .) }}
+{{- $categories := .Params.categories }}
+
+
 {{- if $tags }}
-    {{- $scratch.Add "meta" (slice $author $tags) -}}
-{{- else}}
-    {{- $scratch.Add "meta" (slice $author) -}}
+    {{- $scratch.Add "meta" (slice $authors $tags) -}}
+{{- else }}
+    {{- $scratch.Add "meta" (slice $authors) -}}
 {{- end}}
 
+{{- if and $categories (reflect.IsSlice $categories) }}
+    {{- range $categories }}
+        {{- $scratch.Add "categories" (slice .) }}
+    {{- end }}
+{{- else if $categories }}
+    {{- $scratch.Add "categories" (slice $categories) }}
+{{- end }}
+
+{{- if and $authors (reflect.IsSlice $authors) }}
+    {{- range $authors }}
+        {{- $scratch.Add "authors" (slice .) }}
+    {{- end }}
+{{- else if $authors }}
+    {{- $scratch.Add "authors" (slice $authors) }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
-{{- end -}} 
+    {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end }}
+
+{{- with ($scratch.Get "categories") }}
+    {{- range . }}
+        <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+    {{- end }}
+{{- end }}
