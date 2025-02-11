@@ -70,6 +70,12 @@
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
+    z-index: 10
+}
+/* .entry-footer a {
+} */
+.entry-footer a:hover {
+    color: aqua
 }
 
 .entry-link {
@@ -77,7 +83,12 @@
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 2.5rem;
+    transition: .4s ease;
+} 
+.entry-link:hover {
+    background-color: var(--hover-dark);
+    opacity: .5;
 }
 
 .entry-cover,
