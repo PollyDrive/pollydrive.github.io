@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 320px;
+    min-height: 10rem;
     margin: var(--gap) 0 calc(var(--gap) * 2) 0;
 }
 
@@ -75,7 +75,7 @@
 /* .entry-footer a {
 } */
 .entry-footer a:hover {
-    color: aqua
+    color: var(--link-hover)
 }
 
 .entry-link {
@@ -87,7 +87,7 @@
     transition: .4s ease;
 } 
 .entry-link:hover {
-    background-color: var(--hover-dark);
+    color: var(--link-hover);
     opacity: .5;
 }
 

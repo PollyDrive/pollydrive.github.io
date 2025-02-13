@@ -73,3 +73,7 @@ a:hover{
     color: var(--hover-dark);
     opacity: .5
 }
+
+em {
+    color: var(--italica)
+}
