@@ -17,7 +17,7 @@
 {{- end -}} -->
 
 
-{{- $scratch := newScratch }}
+<!-- {{- $scratch := newScratch }}
 
 {{- if not .Date.IsZero -}}
     {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
@@ -29,16 +29,17 @@
 
 {{- if (.Param "ShowWordCount") -}}
     {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
-{{- end }}
+{{- end }} -->
 
 <!-- {{- $author := (partial "author.html" .) }} -->
 {{- $authors := .Params.authors }}
 {{- $tags := (partial "tags.html" .) }}
 {{- $categories := .Params.categories }}
+{{- $works := .Params.works }}
 
 
 {{- if $tags }}
-    {{- $scratch.Add "meta" (slice $authors $tags) -}}
+    {{- $scratch.Add "meta" (slice $authors $works $tags) -}}
 {{- else }}
     {{- $scratch.Add "meta" (slice $authors) -}}
 {{- end}}
@@ -50,6 +51,15 @@
 {{- else if $categories }}
     {{- $scratch.Add "categories" (slice $categories) }}
 {{- end }}
+
+{{- if reflect.IsSlice $works }}
+    {{- range $works }}
+        {{- $scratch.Add "works" (slice .) }}
+    {{- end }}
+{{- else if $works }}
+    {{- $scratch.Add "works" (slice $works) }}
+{{- end }}
+
 
 {{- if and $authors (reflect.IsSlice $authors) }}
     {{- range $authors }}
@@ -68,3 +78,4 @@
         <a href="/categories/{{ . | urlize }}">{{ . }}</a>
     {{- end }}
 {{- end }}
+
