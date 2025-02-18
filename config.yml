@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: Школа
-    Content: Книжки читаю, пишу по ним конспекты
+    Content: Книжки читаю, видео смотрю, пишу конспекты
 
   socialIcons: # optional
     # - name: "youtube"

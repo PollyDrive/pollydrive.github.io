@@ -36,12 +36,13 @@
 {{- $tags := (partial "tags.html" .) }}
 {{- $categories := .Params.categories }}
 {{- $works := .Params.works }}
+{{- $lecturer := .Params.lecturer }}
 
 
 {{- if $tags }}
     {{- $scratch.Add "meta" (slice $authors $works $tags) -}}
 {{- else }}
-    {{- $scratch.Add "meta" (slice $authors) -}}
+    {{- $scratch.Add "meta" (slice $authors $lecturer) -}}
 {{- end}}
 
 {{- if and $categories (reflect.IsSlice $categories) }}
@@ -50,6 +51,14 @@
     {{- end }}
 {{- else if $categories }}
     {{- $scratch.Add "categories" (slice $categories) }}
+{{- end }}
+
+{{- if and $lecturer (reflect.IsSlice $lecturer) }}
+    {{- range $lecturer }}
+        {{- $scratch.Add "lecturer" (slice .) }}
+    {{- end }}
+{{- else if $lecturer }}
+    {{- $scratch.Add "lecturer" (slice $lecturer) }}
 {{- end }}
 
 {{- if reflect.IsSlice $works }}
@@ -61,21 +70,31 @@
 {{- end }}
 
 
-{{- if and $authors (reflect.IsSlice $authors) }}
+<!-- {{- if and $authors (reflect.IsSlice $authors) }}
     {{- range $authors }}
         {{- $scratch.Add "authors" (slice .) }}
     {{- end }}
 {{- else if $authors }}
     {{- $scratch.Add "authors" (slice $authors) }}
-{{- end }}
+{{- end }} -->
+
 
 {{- with ($scratch.Get "meta") }}
     {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end }}
 
-{{- with ($scratch.Get "categories") }}
+
+<!-- {{- with ($scratch.Get "authors") }}
     {{- range . }}
-        <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+        <a href="/authors/{{ . | urlize }}">{{ . }}</a>
+    {{- end }}
+{{- end }} -->
+
+{{- with ($scratch.Get "lecturer") }}
+    {{- range . }}
+        <a href="/lecturer/{{ . | urlize }}">{{ . }}</a>
     {{- end }}
 {{- end }}
+
+
 
