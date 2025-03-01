@@ -32,7 +32,8 @@
     --border: rgb(51, 51, 51);
     --link: #18bdec;
     --link-hover: #10a3cc;
-    --italica: #743be6;
+    --italica: #b95ee6;
+    --strong: #227ccb;
 }
 
 .list {

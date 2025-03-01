@@ -109,6 +109,10 @@ s
     margin-bottom: 0;
 }
 
+.post-content li strong {
+    color: var(--strong);
+}
+
 .post-content dl {
     display: flex;
     flex-wrap: wrap;
