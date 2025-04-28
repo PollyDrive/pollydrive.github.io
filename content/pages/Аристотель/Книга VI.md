@@ -1,5 +1,5 @@
 ---
-title: Книга IV
+title: Книга VI
 categories: 
 - конспекты  
 authors: Аристотель  
