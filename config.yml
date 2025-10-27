@@ -2,6 +2,7 @@ baseURL: https://pollydrive.github.io
 languageCode: ru-ru
 title: σχολή
 theme: "PaperMod"
+paginate: 10
 
 params:
   homeInfoParams:
@@ -18,6 +19,9 @@ params:
     # - name: "rss"
     #   url: "https://XXX.github.io/index.xml"
   ShowReadingTime: false
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
   # author: "Polly"
   # contact: "@PollyDrive"
   # feedlinks: true

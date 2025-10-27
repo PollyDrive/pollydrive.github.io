@@ -1,0 +1,25 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date.Format "02.01.2006"))) }}
+{{- end }}
+
+{{- $authors := .Params.authors }}
+
+{{- if $authors }}
+    {{- if reflect.IsSlice $authors }}
+        {{- range $index, $author := $authors }}
+            {{- if $index }}
+                {{- $scratch.Add "meta" (slice (printf "<a href='/authors/%s'>%s</a>" ($author | urlize) $author)) }}
+            {{- else }}
+                {{- $scratch.Add "meta" (slice (printf "<a href='/authors/%s'>%s</a>" ($author | urlize) $author)) }}
+            {{- end }}
+        {{- end }}
+    {{- else }}
+        {{- $scratch.Add "meta" (slice (printf "<a href='/authors/%s'>%s</a>" ($authors | urlize) $authors)) }}
+    {{- end }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+    {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end }}

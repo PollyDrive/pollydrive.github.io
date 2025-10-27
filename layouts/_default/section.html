@@ -1,0 +1,102 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content" style="margin-bottom: 30px;">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- $pages := .Pages }}
+{{- $sections := where .Pages "Kind" "section" }}
+{{- $regularPages := where .Pages "Kind" "page" }}
+
+{{- /* Если есть подразделы (папки с работами) */ -}}
+{{- if $sections }}
+  <h2 style="margin-top: 30px; margin-bottom: 20px;">Работы</h2>
+  {{- range $sections }}
+    <details class="work-section" open>
+      <summary class="work-title">
+        <h3 style="display: inline; margin: 0;">
+          <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">{{ .Title }}</a>
+        </h3>
+        <span style="color: var(--secondary); font-size: 0.9em; margin-left: 10px;">
+          ({{ len .Pages }} {{ if eq (len .Pages) 1 }}глава{{ else if or (eq (len .Pages) 2) (eq (len .Pages) 3) (eq (len .Pages) 4) }}главы{{ else }}глав{{ end }})
+        </span>
+      </summary>
+      <div class="work-content" style="margin-left: 20px; margin-top: 15px;">
+        {{- range .Pages }}
+        <article class="post-entry">
+          <header class="entry-header">
+            <h4 style="margin-bottom: 5px;">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h4>
+          </header>
+          {{- if .Params.tags }}
+          <footer class="entry-footer" style="margin-top: 5px; margin-bottom: 15px;">
+            <span style="color: var(--secondary); font-size: 0.85em;">
+              {{- range $index, $tag := .Params.tags }}
+                {{- if $index }}, {{ end }}{{ $tag }}
+              {{- end }}
+            </span>
+          </footer>
+          {{- end }}
+        </article>
+        {{- end }}
+      </div>
+    </details>
+  {{- end }}
+{{- end }}
+
+{{- /* Если есть отдельные страницы на этом уровне */ -}}
+{{- if $regularPages }}
+  {{- if $sections }}
+    <h2 style="margin-top: 40px; margin-bottom: 20px;">Другие материалы</h2>
+  {{- end }}
+  
+  {{- $paginator := .Paginate $regularPages }}
+  
+  {{- range $index, $page := $paginator.Pages }}
+  <article class="post-entry">
+    <header class="entry-header">
+      <h2>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <section class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </section>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
+  </article>
+  {{- end }}
+
+  {{- if gt $paginator.TotalPages 1 }}
+  <footer class="page-footer">
+    <nav class="pagination">
+      {{- if $paginator.HasPrev }}
+      <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« Предыдущая</a>
+      {{- end }}
+      {{- if $paginator.HasNext }}
+      <a class="next" href="{{ $paginator.Next.URL | absURL }}">Следующая »</a>
+      {{- end }}
+    </nav>
+  </footer>
+  {{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */ -}}

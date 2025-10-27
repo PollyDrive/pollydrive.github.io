@@ -1,0 +1,159 @@
+{{- define "main" }}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- $type := .Type }}
+{{- $pages := .Pages }}
+
+{{- if eq $type "authors" }}
+    {{- /* Для страницы автора группируем по работам */ -}}
+    {{- $byWork := dict }}
+    {{- range $pages }}
+        {{- $works := .Params.works }}
+        {{- if $works }}
+            {{- $existing := index $byWork $works }}
+            {{- if $existing }}
+                {{- $byWork = merge $byWork (dict $works ($existing | append .)) }}
+            {{- else }}
+                {{- $byWork = merge $byWork (dict $works (slice .)) }}
+            {{- end }}
+        {{- else }}
+            {{- /* Страницы без работы */ -}}
+            {{- $existing := index $byWork "Разное" }}
+            {{- if $existing }}
+                {{- $byWork = merge $byWork (dict "Разное" ($existing | append .)) }}
+            {{- else }}
+                {{- $byWork = merge $byWork (dict "Разное" (slice .)) }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+
+    {{- /* Выводим работы как разворачивающиеся разделы */ -}}
+    {{- range $work, $workPages := $byWork }}
+        <details class="work-section" open>
+            <summary class="work-title">
+                <h2 style="display: inline;">{{ $work }}</h2>
+                <span style="color: var(--secondary); font-size: 0.9em; margin-left: 10px;">({{ len $workPages }} {{ if eq (len $workPages) 1 }}глава{{ else }}глав{{ end }})</span>
+            </summary>
+            <div class="work-content" style="margin-left: 20px; margin-top: 15px;">
+                {{- range $workPages }}
+                <article class="post-entry">
+                    <header class="entry-header">
+                        <h3 style="margin-bottom: 5px;">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                    </header>
+                    {{- if .Params.tags }}
+                    <footer class="entry-footer" style="margin-top: 5px; margin-bottom: 15px;">
+                        <span style="color: var(--secondary); font-size: 0.85em;">
+                            {{- range $index, $tag := .Params.tags }}
+                                {{- if $index }}, {{ end }}{{ $tag }}
+                            {{- end }}
+                        </span>
+                    </footer>
+                    {{- end }}
+                </article>
+                {{- end }}
+            </div>
+        </details>
+    {{- end }}
+
+{{- else if eq $type "works" }}
+    {{- /* Для страницы работы показываем все главы */ -}}
+    {{- if .Content }}
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    {{- end }}
+
+    {{- $paginator := .Paginate $pages }}
+    
+    {{- range $index, $page := $paginator.Pages }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h2>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+        </header>
+        {{- if (ne (.Param "hideSummary") true) }}
+        <section class="entry-content">
+            <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        </section>
+        {{- end }}
+        {{- if not (.Param "hideMeta") }}
+        <footer class="entry-footer">
+            {{- partial "post_meta.html" . -}}
+        </footer>
+        {{- end }}
+    </article>
+    {{- end }}
+
+    {{- if gt $paginator.TotalPages 1 }}
+    <footer class="page-footer">
+        <nav class="pagination">
+            {{- if $paginator.HasPrev }}
+            <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« Предыдущая</a>
+            {{- end }}
+            {{- if $paginator.HasNext }}
+            <a class="next" href="{{ $paginator.Next.URL | absURL }}">Следующая »</a>
+            {{- end }}
+        </nav>
+    </footer>
+    {{- end }}
+
+{{- else }}
+    {{- /* Для остальных таксономий стандартный список */ -}}
+    {{- if .Content }}
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    {{- end }}
+
+    {{- $paginator := .Paginate $pages }}
+    
+    {{- range $index, $page := $paginator.Pages }}
+    <article class="post-entry">
+        <header class="entry-header">
+            <h2>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+        </header>
+        {{- if (ne (.Param "hideSummary") true) }}
+        <section class="entry-content">
+            <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        </section>
+        {{- end }}
+        {{- if not (.Param "hideMeta") }}
+        <footer class="entry-footer">
+            {{- partial "post_meta.html" . -}}
+        </footer>
+        {{- end }}
+    </article>
+    {{- end }}
+
+    {{- if gt $paginator.TotalPages 1 }}
+    <footer class="page-footer">
+        <nav class="pagination">
+            {{- if $paginator.HasPrev }}
+            <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« Предыдущая</a>
+            {{- end }}
+            {{- if $paginator.HasNext }}
+            <a class="next" href="{{ $paginator.Next.URL | absURL }}">Следующая »</a>
+            {{- end }}
+        </nav>
+    </footer>
+    {{- end }}
+
+{{- end }}
+
+{{- end }}{{/* end main */ -}}
