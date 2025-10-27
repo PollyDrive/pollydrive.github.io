@@ -2,7 +2,9 @@ baseURL: https://pollydrive.github.io
 languageCode: ru-ru
 title: σχολή
 theme: "PaperMod"
-paginate: 10
+
+pagination:
+  pagerSize: 10
 
 params:
   homeInfoParams:
