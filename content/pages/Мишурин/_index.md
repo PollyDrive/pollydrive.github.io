@@ -1,7 +1,11 @@
 ---
-title: Мишурин А.Н.
+title: Александр Мишурин
 type: lecturer
-lecturer: Мишурин А.Н.
+lecturer: Александр Мишурин
+related_works:
+- Пир
+related_authors:
+- Платон
 ---
 
 Лекции по "Пиру" Платона.

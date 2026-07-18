@@ -2,7 +2,7 @@
 title: Книга XII
 categories: 
 - конспекты  
-authors: Аристотель  
+authors: Аристотель
 works: Метафизика  
 tags:
 - энтелехия

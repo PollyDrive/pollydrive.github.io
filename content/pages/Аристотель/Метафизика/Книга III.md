@@ -2,7 +2,7 @@
 title: Книга III
 categories: 
 - конспекты  
-authors: Аристотель  
+authors: Аристотель
 works: Метафизика  
 tags:
 - опыт
