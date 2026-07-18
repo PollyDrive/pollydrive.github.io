@@ -1,0 +1,4 @@
+---
+title: Прокл
+type: authors
+---
