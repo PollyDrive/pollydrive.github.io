@@ -1,7 +1,7 @@
 ---
 title: Якоб Бёме
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Якоб Бёме
 ---

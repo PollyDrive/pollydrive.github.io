@@ -1,10 +1,10 @@
 ---
 title: Аристотель
 type: authors
-works:
+related_works:
 - Метафизика
 - О душе
-authors:
+related_authors:
 - Аристотель
 ---
 

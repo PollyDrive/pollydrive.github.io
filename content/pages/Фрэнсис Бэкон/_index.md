@@ -1,7 +1,7 @@
 ---
 title: Фрэнсис Бэкон
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Фрэнсис Бэкон
 ---

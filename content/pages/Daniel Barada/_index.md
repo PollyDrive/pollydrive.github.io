@@ -1,6 +1,6 @@
 ---
 title: Daniel Barada
 type: lecturer
-works:
-authors:
+related_works:
+related_authors:
 ---

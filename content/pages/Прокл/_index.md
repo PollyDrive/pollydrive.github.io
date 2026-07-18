@@ -1,7 +1,7 @@
 ---
 title: Прокл
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Прокл
 ---

@@ -1,7 +1,7 @@
 ---
 title: Майстер Экхарт
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Майстер Экхарт
 ---

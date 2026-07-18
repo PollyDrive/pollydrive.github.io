@@ -1,7 +1,7 @@
 ---
 title: Джордано Бруно
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Джордано Бруно
 ---

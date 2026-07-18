@@ -2,9 +2,9 @@
 title: Александр Мишурин
 type: lecturer
 lecturer: Александр Мишурин
-works:
+related_works:
 - Пир
-authors:
+related_authors:
 - Платон
 ---
 

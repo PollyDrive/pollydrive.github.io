@@ -1,7 +1,7 @@
 ---
 title: Бенедикт Спиноза
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Бенедикт Спиноза
 ---

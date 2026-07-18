@@ -1,7 +1,7 @@
 ---
 title: Платон
 type: authors
-works:
+related_works:
 - 7 письмо
 - Государство
 - Парменид
@@ -11,7 +11,7 @@ works:
 - Федр
 - Филеб
 - Хармид
-authors:
+related_authors:
 - Платон
 ---
 

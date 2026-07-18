@@ -1,7 +1,7 @@
 ---
 title: Дунс Скот
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Дунс Скот
 ---

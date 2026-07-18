@@ -1,7 +1,7 @@
 ---
 title: Готфрид Лейбниц
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Готфрид Лейбниц
 ---

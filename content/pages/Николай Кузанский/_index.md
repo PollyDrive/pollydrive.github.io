@@ -1,7 +1,7 @@
 ---
 title: Николай Кузанский
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Николай Кузанский
 ---

@@ -1,7 +1,7 @@
 ---
 title: Рене Декарт
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Рене Декарт
 ---

@@ -1,7 +1,7 @@
 ---
 title: Джон Локк
 type: authors
-works:
-authors:
+related_works:
+related_authors:
 - Джон Локк
 ---
