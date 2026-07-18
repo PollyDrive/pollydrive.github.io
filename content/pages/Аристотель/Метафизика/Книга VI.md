@@ -2,7 +2,7 @@
 title: Книга VI
 categories: 
 - конспекты  
-authors: Аристотель  
+authors: Аристотель
 works: Метафизика  
 tags:
 - случайное

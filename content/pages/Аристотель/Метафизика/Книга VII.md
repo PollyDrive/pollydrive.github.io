@@ -2,7 +2,7 @@
 title: Книга VII
 categories: 
 - конспекты  
-authors: Аристотель  
+authors: Аристотель
 works: Метафизика  
 tags:
 - сущее
