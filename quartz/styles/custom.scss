@@ -106,21 +106,21 @@ html:has(details.tablepop[open]) { overflow: hidden; }
 // ссылки в сводной таблице: ярче и заметнее обычных
 details.tablepop table a,
 details.tablepop table a.internal {
-  color: #0b64c0;
+  color: #1f7a4d;
   font-weight: 650;
   background: none;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 3px;
 
-  &:hover { color: #e0245e; }
+  &:hover { color: #b4560f; }
 }
 
 :root[saved-theme="dark"] details.tablepop table a,
 :root[saved-theme="dark"] details.tablepop table a.internal {
-  color: #7cc4ff;
+  color: #6fe0a0;
 
-  &:hover { color: #ff7da6; }
+  &:hover { color: #ffd27a; }
 }
 
 
