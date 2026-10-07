@@ -1,0 +1,173 @@
+@use "./variables.scss" as *;
+
+// put your custom CSS here!
+
+// ——— Таблица в полноэкранном попапе ———
+// Средняя колонка грида узкая, таблицам в ней тесно. <details> открывает
+// таблицу на весь экран с горизонтальным скроллом. Без JS, поэтому
+// переживает SPA-навигацию; <input type=checkbox> тут не годится —
+// Quartz перехватывает чекбоксы и запоминает их состояние.
+
+// обычный свёрнутый блок Logseq — просто раскрывающийся список
+details.fold {
+  margin: 0.4rem 0 0.8rem;
+
+  & > summary {
+    cursor: pointer;
+    font-family: var(--headerFont);
+    color: var(--darkgray);
+  }
+}
+
+details.tablepop {
+  margin: 0.6rem 0 1.2rem;
+
+  & > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 1.4rem;
+    border: none;
+    border-radius: 8px;
+    background: var(--secondary);
+    color: var(--light);
+    font-family: var(--headerFont);
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    transition: background 0.15s, box-shadow 0.15s;
+
+    &::-webkit-details-marker { display: none; }
+    &::before { content: "⤢"; color: inherit; font-size: 1.3em; line-height: 1; }
+    &:hover { filter: brightness(1.15); box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25); }
+  }
+
+  & .tablepop-shut { display: none; }
+
+  &[open] > summary {
+    position: fixed;
+    top: 0.7rem;
+    right: 1rem;
+    z-index: 1001;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+
+    &::before { content: "✕"; }
+    & .tablepop-label { display: none; }
+    & .tablepop-shut { display: inline; }
+  }
+
+  &[open] .table-container {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    margin: 0;
+    max-width: none;
+    overflow: auto;
+    overscroll-behavior: contain;
+    background: var(--light);
+    padding: 3.25rem 1rem 1.5rem;
+
+    & > table {
+      width: max-content;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+      font-size: 0.82rem;
+
+      th,
+      td {
+        line-height: 1rem;
+        vertical-align: top;
+        padding: 0.5rem 0.7rem;
+      }
+
+      th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background: var(--light);
+        white-space: nowrap;
+      }
+
+      td { min-width: 11rem; max-width: 22rem; }
+      td:first-child, th:first-child { min-width: 9rem; max-width: 11rem; }
+    }
+  }
+}
+
+// пока попап открыт — фон не прокручивается
+html:has(details.tablepop[open]) { overflow: hidden; }
+
+// ссылки в сводной таблице: ярче и заметнее обычных
+details.tablepop table a,
+details.tablepop table a.internal {
+  color: #0b64c0;
+  font-weight: 650;
+  background: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+
+  &:hover { color: #e0245e; }
+}
+
+:root[saved-theme="dark"] details.tablepop table a,
+:root[saved-theme="dark"] details.tablepop table a.internal {
+  color: #7cc4ff;
+
+  &:hover { color: #ff7da6; }
+}
+
+
+// ——— Родительские страницы с разделами ———
+// Перечень с заголовками («Ключевые понятия», «Труды») оставляем как есть,
+// а общий список Quartz, где всё в одной куче, прячем.
+.popover-hint:has(> article.hub-sections) > .page-listing {
+  display: none;
+}
+
+// дата и теги страницы в строке перечня (как в общем списке Quartz)
+.hub-meta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.5rem;
+  margin-left: 0.7rem;
+  font-size: 0.8rem;
+  color: var(--gray);
+
+  & time { white-space: nowrap; }
+
+  & a {
+    padding: 0 0.45rem;
+    border-radius: 5px;
+    font-size: 0.78rem;
+    background: var(--highlight);
+    color: var(--secondary);
+  }
+}
+
+// ——— Вложенные документы (pdf и т.п.) ———
+// В Logseq pdf вставлен как ![имя.pdf](файл), на сайте это обычная ссылка;
+// слева от неё рисуем иконку документа.
+a[href$=".pdf" i],
+a[href$=".doc" i],
+a[href$=".docx" i],
+a[href$=".epub" i] {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 1.05em;
+    height: 1.05em;
+    margin-right: 0.3em;
+    vertical-align: -0.17em;
+    background-color: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpath d='M14 2v6h6M8 13h8M8 17h5'/%3E%3C/svg%3E") no-repeat center / contain;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpath d='M14 2v6h6M8 13h8M8 17h5'/%3E%3C/svg%3E") no-repeat center / contain;
+  }
+}
