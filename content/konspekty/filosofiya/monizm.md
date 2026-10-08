@@ -15,7 +15,7 @@ tags:
 - Монизм вещества: одно вещество порождает остальные. Фалес, Анаксимен, [Гераклит](/konspekty/filosofiya/antichnoe-vremya/fragmenty-rannikh-grecheskikh-filosofov) (вода, воздух, огонь), [Апейрон](/konspekty/filosofiya/antichnoe-vremya/milettsy/apeyron) Анаксимандра ([Милетцы](/konspekty/filosofiya/antichnoe-vremya/milettsy/)).
 - Монизм бытия: подлинно есть только одно неделимое бытие, а множество и движение — видимость ([Элеаты](/konspekty/filosofiya/antichnoe-vremya/eleaty/); [Парменид](/konspekty/filosofiya/antichnoe-vremya/platon/parmenid), [Бытие и небытие](/konspekty/filosofiya/bytie-i-nebytie)).
 - Материалистический монизм с разумом: в мире есть только тела, но одно из них — разумный огонь, пронизывающий остальное ([Стоики](/konspekty/filosofiya/antichnoe-vremya/stoiki/), [Пневма](/konspekty/filosofiya/antichnoe-vremya/stoiki/pnevma)).
-- Идеалистический монизм: всё исходит из одного духовного источника, а материя — его последнее ослабление ([Неоплатоники](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/), [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe), [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin)).
+- Идеалистический монизм: всё исходит из одного духовного источника, а материя — его последнее ослабление ([Неоплатоники](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/), [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe), [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/)).
 - Монизм субстанции: одна субстанция с множеством атрибутов, мышление и протяжение — два из них ([Спиноза](/konspekty/filosofiya/novoe-vremya/benedikt-spinoza/), [Этика](/konspekty/filosofiya/novoe-vremya/benedikt-spinoza/etika)).
 
 ## Узлы спора

@@ -10,7 +10,7 @@ tags:
 ## Суть
 
 - Апофатика (от apophasis, «отрицание») — познание объекта через отрицание того, чем он не является. О Едином можно сказать, чем оно не является: не множество, не бытие, не ум, не форма. Положительное высказывание (катафатика) вводило бы в него двойственность субъекта и предиката.
-- Язык не лжёт, а только указывает: слова ведут к тому, о чём нельзя сказать, и умолкают. [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) призывает не описывать, а отнимать и осторожно уводить мысль от множественного.
+- Язык не лжёт, а только указывает: слова ведут к тому, о чём нельзя сказать, и умолкают. [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) призывает не описывать, а отнимать и осторожно уводить мысль от множественного.
 - Апофатика не безразличие: отрицание ведёт к практике, к очищению мысли для восхождения ([Экстаз и восхождение](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/ekstaz-i-voskhozhdenie)).
 
 ## Где у автора
@@ -23,4 +23,4 @@ tags:
 - Против аристотелевского бога как мышления: для Плотина мышление уже умножает ([Неподвижный перводвигатель](/konspekty/filosofiya/antichnoe-vremya/aristotel/nepodvizhnyy-pervodvigatel)).
 - Для христианской мысли — важное наследство: апофатическое богословие Григория Нисского, Псевдо-Дионисия Ареопагита, позже [Экхарта](/konspekty/filosofiya/skholastika/mayster-ekkhart/) и [Николая Кузанского](/konspekty/filosofiya/vozrozhdenie/nikolay-kuzanskiy/). Схожие ходы в иудейском (Маймонид) и арабском богословии.
 - Опирается на учение о [Едином](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe); выход из Единого описывается образами, [Эманация](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/emanatsiya).
-- У Прокла в [«Первоосновах теологии»](/konspekty/filosofiya/antichnoe-vremya/prokl/pervoosnovy-teologii) апофатика сочетается с жёсткой иерархией.
+- У Прокла в [«Первоосновах теологии»](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/prokl/pervoosnovy-teologii) апофатика сочетается с жёсткой иерархией.

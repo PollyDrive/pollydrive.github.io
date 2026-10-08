@@ -8,12 +8,13 @@ tags:
 cssclasses:
   - "hub-sections"
 parent_page: true
+date: 2025-11-21
 ---
 
 ## Кто и когда
 
 - Неоплатонизм — течение платонизма III–VI веков н. э.; сами его представители считали себя просто платониками, а название придумали позднейшие историки.
-- Основатель — [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) (около 204–270), учившийся в Александрии у Аммония Сакка и преподававший в Риме. Его ученик Порфирий (около 234–305) издал его трактаты и написал «Жизнь Плотина». Ямвлих (около 245–325) ввёл теургию и разветвлённую иерархию. Афинская школа V века — [Прокл](/konspekty/filosofiya/antichnoe-vremya/prokl/) (412–485).
+- Основатель — [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) (около 204–270), учившийся в Александрии у Аммония Сакка и преподававший в Риме. Его ученик Порфирий (около 234–305) издал его трактаты и написал «Жизнь Плотина». Ямвлих (около 245–325) ввёл теургию и разветвлённую иерархию. Афинская школа V века — [Прокл](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/prokl/) (412–485).
 - Традиционный конец школы в Афинах датируют 529 годом, указом Юстиниана; точный смысл этого события обсуждается.
 
 ## Главные идеи
@@ -27,7 +28,7 @@ parent_page: true
 ## Источники
 
 - «Эннеады» Плотина (в порядке Порфирия, 54 трактата); «Жизнь Плотина» Порфирия.
-- Трактат [Первоосновы теологии](/konspekty/filosofiya/antichnoe-vremya/prokl/pervoosnovy-teologii) Прокла — строгое изложение системы в виде предложений.
+- Трактат [Первоосновы теологии](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/prokl/pervoosnovy-teologii) Прокла — строгое изложение системы в виде предложений.
 - Читаются как комментарии к [Платону](/konspekty/filosofiya/antichnoe-vremya/platon/) — прежде всего к «Пармениду», «Тимею», «Государству».
 
 ## Споры и наследие
@@ -47,4 +48,5 @@ parent_page: true
 
 ## Философы
 
-- [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) <span class="hub-meta">[единое](/tags/единое) [эманация](/tags/эманация) [экстаз](/tags/экстаз) [материя и зло](/tags/материя-и-зло)</span>
+- [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) <span class="hub-meta"><time datetime="2024-11-14">14 ноября 2024</time> [единое](/tags/единое) [эманация](/tags/эманация) [экстаз](/tags/экстаз) [материя и зло](/tags/материя-и-зло)</span>
+- [Прокл](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/prokl/) <span class="hub-meta"><time datetime="2025-11-21">21 ноября 2025</time> [единое](/tags/единое) [триада](/tags/триада) [эманация](/tags/эманация) [иерархия бытия](/tags/иерархия-бытия)</span>

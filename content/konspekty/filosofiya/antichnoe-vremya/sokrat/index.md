@@ -8,6 +8,7 @@ tags:
 cssclasses:
   - "hub-sections"
 parent_page: true
+date: 2026-11-29
 ---
 
 ## Кто и когда
@@ -42,3 +43,13 @@ parent_page: true
 - [Добродетель](/konspekty/filosofiya/antichnoe-vremya/sokrat/dobrodetel) <span class="hub-meta">[сократ](/tags/сократ) [знание](/tags/знание) [этика](/tags/этика) [платон](/tags/платон)</span>
 - [Знание о незнании](/konspekty/filosofiya/antichnoe-vremya/sokrat/znanie-o-neznanii) <span class="hub-meta">[сократ](/tags/сократ) [мудрость](/tags/мудрость) [диалог](/tags/диалог) [скепсис](/tags/скепсис)</span>
 - [Майевтика](/konspekty/filosofiya/antichnoe-vremya/sokrat/mayevtika) <span class="hub-meta">[сократ](/tags/сократ) [диалог](/tags/диалог) [вопросы](/tags/вопросы) [рождение знания](/tags/рождение-знания)</span>
+
+### Вопросы к семинару
+
+1. Какие два главных обвинения народ предъявил Сократу?
+
+2. Какие положения философ выдвинул в свою защиту?
+
+3. Что делает Сократа мудрее других людей? Кого можно назвать мудрым, согласно философу?
+
+4. Почему Сократ считал своё дело божественным?

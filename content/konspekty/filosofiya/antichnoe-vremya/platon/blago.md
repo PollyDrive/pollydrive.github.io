@@ -22,5 +22,5 @@ tags:
 
 - Что такое Благо? Сам Платон уклоняется. Аристотель в «Метафизике» сообщает о «неписаных учениях» Платона, где начала — Единое и неопределённая двоица; отсюда распространённое отождествление Блага с Единым.
 - Аристотель возражает в [«Никомаховой этике»](/konspekty/filosofiya/antichnoe-vremya/aristotel/nikomakhova-etika) (I): общее благо, отдельное от вещей, не могло бы стать целью человеческого действия.
-- Позже [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) опирается на «по ту сторону сущности», отождествляя Благо и [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe), и строит на этом всю систему; для [неоплатоников](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/) это центральная формула.
+- Позже [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) опирается на «по ту сторону сущности», отождествляя Благо и [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe), и строит на этом всю систему; для [неоплатоников](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/) это центральная формула.
 - В ранних диалогах [Сократ](/konspekty/filosofiya/antichnoe-vremya/sokrat/) говорит о знании блага как условии добродетели, а Платон придаёт этому метафизическую основу.

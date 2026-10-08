@@ -10,7 +10,7 @@ tags:
 ## Суть
 
 - Материя у Плотина — последний предел исхождения: лишённость (steresis), без формы, качества и величины, почти небытие. Это не аристотелевская материя как потенция, а то, что остаётся, когда формы больше нет.
-- Зло — не самостоятельная сила, а недостаток блага. [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) прямо называет материю «злом», но подчёркивает: она зла как отсутствие, а не как действующее начало.
+- Зло — не самостоятельная сила, а недостаток блага. [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) прямо называет материю «злом», но подчёркивает: она зла как отсутствие, а не как действующее начало.
 - Зло в душе возникает, когда она склоняется к материи и забывает об Уме. Мир в целом не зол, его порядок разумен.
 
 ## Где у автора
@@ -21,7 +21,7 @@ tags:
 ## Споры и связи
 
 - Против дуализма гностиков (и позже манихеев): два начала, добро и зло, Плотин отвергает. Против них же направлен трактат II.9.
-- Против [Аристотель](/konspekty/filosofiya/antichnoe-vremya/aristotel/): у него материя — потенция и не зла ([Гилеморфизм](/konspekty/filosofiya/antichnoe-vremya/aristotel/gilemorfizm), [Акт и потенция](/konspekty/filosofiya/antichnoe-vremya/aristotel/akt-i-potentsiya/)).
+- Против [Аристотель](/konspekty/filosofiya/antichnoe-vremya/aristotel/): у него материя — потенция и не зла ([Гилеморфизм](/konspekty/filosofiya/antichnoe-vremya/aristotel/gilemorfizm), [Акт и потенция](/konspekty/filosofiya/antichnoe-vremya/aristotel/akt-i-potentsiya)).
 - Против [Стоики](/konspekty/filosofiya/antichnoe-vremya/stoiki/), считавших началом тела: по Плотину, материя бестелесна.
-- Позднее [Прокл](/konspekty/filosofiya/antichnoe-vremya/prokl/) ещё резче: в его трактате о существовании зла материя не зло, а у зла вообще нет собственной природы.
+- Позднее [Прокл](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/prokl/) ещё резче: в его трактате о существовании зла материя не зло, а у зла вообще нет собственной природы.
 - Августин берёт формулу зла как лишения блага. Связано с [Эманация](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/emanatsiya), [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe).

@@ -25,4 +25,4 @@ aliases:
 
 - Продолжает [Сократа](/konspekty/filosofiya/antichnoe-vremya/sokrat/); поиск определений и принимает от [элеатов](/konspekty/filosofiya/antichnoe-vremya/eleaty/) различение истинного бытия и мнения, а от Гераклита — текучесть чувственного. Сократ, по Аристотелю, общее не отделял.
 - [Аристотель](/konspekty/filosofiya/antichnoe-vremya/aristotel/) в [[Метафизике]] критикует «отделение»: эйдосы лишь удваивают вещи и не объясняют ни их возникновения, ни движения; форма, по нему, находится в самих вещах ([Гилеморфизм](/konspekty/filosofiya/antichnoe-vremya/aristotel/gilemorfizm)).
-- Позже [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) помещает эйдосы в Ум, выше которого стоит [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe). После античности спор о реальности общего продолжается как спор об универсалиях.
+- Позже [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) помещает эйдосы в Ум, выше которого стоит [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe). После античности спор о реальности общего продолжается как спор об универсалиях.

@@ -8,6 +8,7 @@ tags:
 cssclasses:
   - "hub-sections"
 parent_page: true
+date: 2024-11-05
 ---
 
 ## Кто и когда

@@ -22,5 +22,5 @@ tags:
 
 - Александр Афродисийский: деятельный ум — внешний, тождественный божественному уму ([Неподвижный перводвигатель](/konspekty/filosofiya/antichnoe-vremya/aristotel/nepodvizhnyy-pervodvigatel)).
 - Арабские перипатетики делают его внешним разумом, дающим формы людям; Ибн Рушд — единым для всех. Фома Аквинский возвращает его в индивидуальную душу как её собственную силу.
-- У [Плотина](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) Ум становится самостоятельной ипостасью, а не способностью души.
+- У [Плотина](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) Ум становится самостоятельной ипостасью, а не способностью души.
 - Связывает [Энтелехию](/konspekty/filosofiya/antichnoe-vremya/aristotel/entelekhiya) с вопросом бессмертия ([О душе](/konspekty/filosofiya/antichnoe-vremya/aristotel/o-dushe/)).

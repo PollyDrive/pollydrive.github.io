@@ -25,4 +25,4 @@ tags:
 - Против [Аристотель](/konspekty/filosofiya/antichnoe-vremya/aristotel/): у него душа — форма тела ([Энтелехия](/konspekty/filosofiya/antichnoe-vremya/aristotel/entelekhiya), [О душе](/konspekty/filosofiya/antichnoe-vremya/aristotel/o-dushe/)); у Плотина она не растворена в теле.
 - Обратный путь — [Экстаз и восхождение](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/ekstaz-i-voskhozhdenie); общая схема — [Эманация](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/emanatsiya).
 - Предсуществование душ в христианстве встречено настороженно (спор об Оригене).
-- Обзор: [Неоплатоники](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/), [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin).
+- Обзор: [Неоплатоники](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/), [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/).

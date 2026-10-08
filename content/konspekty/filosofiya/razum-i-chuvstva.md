@@ -5,6 +5,7 @@ tags:
   - "гносеология"
 aliases:
   - "Эмпиризм и Рационализм"
+  - "опыт"
 ---
 
 ## Суть
@@ -50,7 +51,7 @@ aliases:
 - [Декарт](/konspekty/filosofiya/novoe-vremya/rene-dekart/): чувства обманывают, поэтому основание ищется в несомненном акте мысли; ясность и отчётливость становятся критерием, а часть идей признаётся врождёнными ([Размышления о первой философии](/konspekty/filosofiya/novoe-vremya/rene-dekart/razmyshleniya-o-pervoy-filosofii)).
 - [Спиноза](/konspekty/filosofiya/novoe-vremya/benedikt-spinoza/): порядок идей тот же, что порядок вещей, поэтому истина опознаётся по самой себе. Чувственное знание («из опыта наугад») стоит ниже рассудка и интуитивного знания ([Этика](/konspekty/filosofiya/novoe-vremya/benedikt-spinoza/etika)).
 - [Лейбниц](/konspekty/filosofiya/novoe-vremya/gotfrid-leybnits/): прямо отвечает Локку, что в уме нет ничего, чего не было бы в чувствах, кроме самого ума. Врождённое — не готовые мысли, а предрасположенность, и необходимые истины из опыта не выводятся.
-- [Локк](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/): врождённых идей нет, ум начинается как чистый лист, и весь материал даёт опыт — внешний и внутренний. Разум только соединяет и сравнивает полученное ([Опыт о человеческом разумении](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/opyt-o-chelovecheskom-razumenii/)).
+- [Локк](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/): врождённых идей нет, ум начинается как чистый лист, и весь материал даёт опыт — внешний и внутренний. Разум только соединяет и сравнивает полученное ([Опыт о человеческом разумении](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/opyt-o-chelovecheskom-razumenii)).
 - [Беркли](/konspekty/filosofiya/novoe-vremya/dzhordzh-berkli/): доводит эмпиризм до отказа от материи — быть значит быть воспринимаемым, а абстрактных идей нет ([Трактат о принципах человеческого знания](/konspekty/filosofiya/novoe-vremya/dzhordzh-berkli/traktat-o-printsipakh-chelovecheskogo-znaniya), [Солипсизм](/konspekty/filosofiya/solipsizm), [Когерентность](/konspekty/filosofiya/kogerentnost)).
 - [Юм](/konspekty/filosofiya/novoe-vremya/david-yum/): всё содержание ума сводится к впечатлениям и идеям, а связи, которые мы считаем необходимыми, в опыте не даны. Причинность оказывается привычкой, и эмпиризм приходит к скептическому итогу.
 

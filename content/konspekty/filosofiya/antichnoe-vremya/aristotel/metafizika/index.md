@@ -15,6 +15,8 @@ date: 2025-05-23
 
 [Книга VII](/konspekty/filosofiya/antichnoe-vremya/aristotel/metafizika/kniga-vii) Сущность и определение
 
+[Книга IX](/konspekty/filosofiya/antichnoe-vremya/aristotel/metafizika/kniga-ix)
+
 [Книга XII](/konspekty/filosofiya/antichnoe-vremya/aristotel/metafizika/kniga-xii) Космология и учение о Боге
 
 ## Ключевые понятия

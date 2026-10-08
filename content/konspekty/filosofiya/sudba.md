@@ -30,7 +30,7 @@ tags:
 - [Эпикурейцы](/konspekty/filosofiya/antichnoe-vremya/epikureytsy/): Эпикур считает, что лучше следовать мифу о богах, чем быть рабом «судьбы физиков». Свободу спасает [отклонение атома](/konspekty/filosofiya/antichnoe-vremya/epikureytsy/otklonenie-atoma): цепь причин прерывается.
 - [Стоики](/konspekty/filosofiya/antichnoe-vremya/stoiki/): судьба и провидение — одно и то же начало, свобода — согласие с ним. Подробно ниже.
 - [Скептики](/konspekty/filosofiya/antichnoe-vremya/skeptiki/): Карнеад критиковал обе схемы. Свободе, по его возражению, не нужно беспричинное отклонение атома: достаточно, что поступок вытекает из воли, а не из внешнего принуждения.
-- [Неоплатоники](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/): у [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin)а судьба властвует над телесным, но душа, обращённая к Уму, от неё свободна. Судьба касается тела и внешнего, а не самой сути человека ([Нисхождение души](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/niskhozhdenie-dushi)).
+- [Неоплатоники](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/): у [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/)а судьба властвует над телесным, но душа, обращённая к Уму, от неё свободна. Судьба касается тела и внешнего, а не самой сути человека ([Нисхождение души](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/niskhozhdenie-dushi)).
 
 ## Схоластика
 
@@ -48,7 +48,7 @@ tags:
 - Гоббс (на странице для него пока места нет): свобода — отсутствие внешних препятствий, а не отсутствие причин, и потому совместима с необходимостью. Классическая форма компатибилизма.
 - [Спиноза](/konspekty/filosofiya/novoe-vremya/benedikt-spinoza/): в природе нет ничего случайного, всё необходимо вытекает из природы Бога ([Этика](/konspekty/filosofiya/novoe-vremya/benedikt-spinoza/etika)). Свобода — не выбор между возможностями, а действие из собственной природы; случайным вещь кажется только из-за незнания причин.
 - [Лейбниц](/konspekty/filosofiya/novoe-vremya/gotfrid-leybnits/): мир — лучший из возможных, у всего есть достаточное основание. Основания «склоняют, но не принуждают», и это позволяет спасти и случайность, и свободу.
-- [Локк](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/): свобода — способность действовать или не действовать по выбору, это свойство человека, а не воли ([Опыт о человеческом разумении](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/opyt-o-chelovecheskom-razumenii/)).
+- [Локк](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/): свобода — способность действовать или не действовать по выбору, это свойство человека, а не воли ([Опыт о человеческом разумении](/konspekty/filosofiya/novoe-vremya/dzhon-lokk/opyt-o-chelovecheskom-razumenii)).
 - [Юм](/konspekty/filosofiya/novoe-vremya/david-yum/): необходимость в поступках людей той же природы, что в природе: это регулярность, которую мы наблюдаем, а не скрытая сила. Свобода как способность действовать по собственной воле с необходимостью совместима. Его скепсис к причинности ведёт и к скепсису в вопросе, чем нас связывает необходимость.
 
 ## Узлы спора

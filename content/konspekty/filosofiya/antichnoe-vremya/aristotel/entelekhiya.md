@@ -23,5 +23,5 @@ tags:
 
 - Против платонической и пифагорейской души как отдельной сущности, вселяющейся в тело, и против понимания души как гармонии тела. Подробнее [О душе](/konspekty/filosofiya/antichnoe-vremya/aristotel/o-dushe/).
 - Вершина — «отделимый ум», о котором в «О душе» III.5 сказано кратко и спорно: [Деятельный ум](/konspekty/filosofiya/antichnoe-vremya/aristotel/deyatelnyy-um).
-- Развивает [Акт и потенция](/konspekty/filosofiya/antichnoe-vremya/aristotel/akt-i-potentsiya/) и [Гилеморфизм](/konspekty/filosofiya/antichnoe-vremya/aristotel/gilemorfizm): душа есть форма живого.
-- Позже Лейбниц назвал свои простые субстанции энтелехиями. [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin), напротив, делает душу самостоятельной сущностью ([Нисхождение души](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/niskhozhdenie-dushi)).
+- Развивает [Акт и потенция](/konspekty/filosofiya/antichnoe-vremya/aristotel/akt-i-potentsiya) и [Гилеморфизм](/konspekty/filosofiya/antichnoe-vremya/aristotel/gilemorfizm): душа есть форма живого.
+- Позже Лейбниц назвал свои простые субстанции энтелехиями. [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/), напротив, делает душу самостоятельной сущностью ([Нисхождение души](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/niskhozhdenie-dushi)).

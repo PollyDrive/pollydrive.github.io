@@ -9,11 +9,11 @@ tags:
 
 ## Суть
 
-- Эманация (от лат. emanatio, «истечение») — способ, которым у Плотина из Единого возникают последующие ступени. Слово позднее; сам [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin) говорит об исхождении (prodos) и использует образы: источник, из которого течёт вода, свет от солнца, тепло от огня. ([Нисхождение души](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/niskhozhdenie-dushi), [Экстаз и восхождение](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/ekstaz-i-voskhozhdenie))
+- Эманация (от лат. emanatio, «истечение») — способ, которым у Плотина из Единого возникают последующие ступени. Слово позднее; сам [Плотин](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/plotin/) говорит об исхождении (prodos) и использует образы: источник, из которого течёт вода, свет от солнца, тепло от огня. ([Нисхождение души](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/niskhozhdenie-dushi), [Экстаз и восхождение](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/ekstaz-i-voskhozhdenie))
 - [Единое](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe) порождает по избытку: оно ничего не желает, не решает и не уменьшается. Это не творение, а необходимое переливание полноты.
 - Порождённое сначала неопределённо; оно обращается к источнику (epistrophe) и этим обращением обретает форму. Так возникает Ум — как множество идей и мышление себя (идеи Платона, [Эйдос](/konspekty/filosofiya/antichnoe-vremya/platon/eydos), помещены внутрь Ума).
 - Следующие ступени возникают так же; чем дальше от Единого, тем слабее единство и тем больше множественности и затемнения.
-- Ряд «пребывание — исхождение — возвращение» систематизирован у [Прокла](/konspekty/filosofiya/antichnoe-vremya/prokl/).
+- Ряд «пребывание — исхождение — возвращение» систематизирован у [Прокла](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/prokl/).
 
 ## Где у автора
 

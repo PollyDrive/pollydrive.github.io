@@ -9,9 +9,11 @@ genre: "философия"
 date: 2025-03-18
 ---
 
-[Семинар неакадема](/konspekty/filosofiya/antichnoe-vremya/platon/pir/seminar-neakadema)
+[Пир (семинар)](/konspekty/filosofiya/antichnoe-vremya/platon/pir/pir-seminar)
 
-Курс лекций Александра Мишурина по диалогу Платона «Пир»
+---
+
+### Курс лекций Александра Мишурина по диалогу Платона «Пир»
 
 [Введение (Лекция 1 )](/konspekty/filosofiya/antichnoe-vremya/platon/pir/vvedenie-lektsiya-1)
 

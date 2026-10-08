@@ -12,11 +12,19 @@ parent_page: true
 date: 2026-10-07
 ---
 
+[Аристотель Сочинения т.1 1976.pdf](aristotel_sochineniya_t-1_1976_1791439733849_0.pdf)
+
+[Аристотель Сочинения т.3 1981.pdf](aristotel_sochineniya_t-3_1981_1791439740813_0.pdf)
+
+[Аристотель Сочинения т.4 1983.pdf](aristotel_sochineniya_t-4_1983_1791439745930_0.pdf)
+
+[А.Н.Чанышев - Аристотель.pdf](a-n-chanyshev_-_aristotel_1791439802812_0.pdf)
+
 ## Труды
 
 - [Метафизика](/konspekty/filosofiya/antichnoe-vremya/aristotel/metafizika/) <span class="hub-meta"><time datetime="2025-05-23">23 мая 2025</time></span>
 - Органон
-- Физика
+- [[Физика]]
 - [О душе](/konspekty/filosofiya/antichnoe-vremya/aristotel/o-dushe/) <span class="hub-meta"><time datetime="2025-10-20">20 октября 2025</time> [душа](/tags/душа)</span>
 - Этика Большая
 - [Никомахова этика](/konspekty/filosofiya/antichnoe-vremya/aristotel/nikomakhova-etika) <span class="hub-meta"><time datetime="2026-10-07">7 октября 2026</time> [эвдемония](/tags/эвдемония) [добродетель](/tags/добродетель) [фронесис](/tags/фронесис) [интеллектуальные добродетели](/tags/интеллектуальные-добродетели)</span>
@@ -27,7 +35,7 @@ date: 2026-10-07
 ## Ключевые понятия
 
 - [Гилеморфизм](/konspekty/filosofiya/antichnoe-vremya/aristotel/gilemorfizm) — вещь как материя и форма <span class="hub-meta">[аристотель](/tags/аристотель) [форма](/tags/форма) [материя](/tags/материя) [сущность](/tags/сущность)</span>
-- [Акт и потенция](/konspekty/filosofiya/antichnoe-vremya/aristotel/akt-i-potentsiya/) — возможность и действительность <span class="hub-meta">[аристотель](/tags/аристотель) [возможность](/tags/возможность) [действительность](/tags/действительность) [движение](/tags/движение)</span>
+- [Акт и потенция](/konspekty/filosofiya/antichnoe-vremya/aristotel/akt-i-potentsiya) — возможность и действительность <span class="hub-meta">[аристотель](/tags/аристотель) [возможность](/tags/возможность) [действительность](/tags/действительность) [движение](/tags/движение)</span>
 - [Причины](/konspekty/filosofiya/antichnoe-vremya/aristotel/prichiny) — материальная, формальная, движущая, целевая <span class="hub-meta">[аристотель](/tags/аристотель) [физика](/tags/физика) [причинность](/tags/причинность) [цель](/tags/цель)</span>
 - [Силлогистика](/konspekty/filosofiya/antichnoe-vremya/aristotel/sillogistika) — первая формальная логика <span class="hub-meta">[аристотель](/tags/аристотель) [логика](/tags/логика) [вывод](/tags/вывод) [доказательство](/tags/доказательство)</span>
 - [Законы мышления](/konspekty/filosofiya/antichnoe-vremya/aristotel/zakony-myshleniya) — непротиворечие и исключённое третье <span class="hub-meta">[аристотель](/tags/аристотель) [логика](/tags/логика) [непротиворечие](/tags/непротиворечие) [исключённое третье](/tags/исключённое-третье)</span>

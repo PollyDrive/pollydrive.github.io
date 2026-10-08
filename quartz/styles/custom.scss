@@ -147,9 +147,31 @@ details.tablepop table a.internal {
     padding: 0 0.45rem;
     border-radius: 5px;
     font-size: 0.78rem;
-    background: var(--highlight);
-    color: var(--secondary);
+    background: var(--tag-bg);
+    color: var(--tag-fg);
   }
+}
+
+// ——— Теги: светло-фиолетовые, чтобы отличались от зелёных ссылок ———
+:root {
+  --tag-bg: #ece6fa;
+  --tag-fg: #6a4bb8;
+}
+:root[saved-theme="dark"] {
+  --tag-bg: rgba(176, 150, 240, 0.18);
+  --tag-fg: #cdbcf7;
+}
+a.internal.tag-link,
+.tags a.internal {
+  background-color: var(--tag-bg);
+  color: var(--tag-fg);
+}
+.hub-meta a:hover,
+a.internal.tag-link:hover,
+.tags a.internal:hover {
+  background-color: var(--tag-fg);
+  color: var(--light);
+  opacity: 1;
 }
 
 // ——— Вложенные документы (pdf и т.п.) ———

@@ -8,6 +8,7 @@ tags:
 cssclasses:
   - "hub-sections"
 parent_page: true
+date: 2024-11-26
 ---
 
 ## Кто и когда
@@ -41,7 +42,7 @@ parent_page: true
 
 ## Авторы
 
-- [Демокрит](/konspekty/filosofiya/antichnoe-vremya/atomisty/demokrit) <span class="hub-meta">[атомы](/tags/атомы) [пустота](/tags/пустота) [необходимость](/tags/необходимость) [два рода познания](/tags/два-рода-познания)</span>
+- [Демокрит](/konspekty/filosofiya/antichnoe-vremya/atomisty/demokrit) <span class="hub-meta"><time datetime="2024-11-26">26 ноября 2024</time> [атомы](/tags/атомы) [пустота](/tags/пустота) [необходимость](/tags/необходимость) [два рода познания](/tags/два-рода-познания)</span>
 
 ## Ключевые понятия
 
