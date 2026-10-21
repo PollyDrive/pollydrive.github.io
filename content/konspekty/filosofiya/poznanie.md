@@ -48,7 +48,7 @@ aliases:
 
 ## Схоластика и Возрождение
 
-- Августин: чувства дают повод, но истину душа видит в свете, идущем от Бога. Фома: ум извлекает из чувственного образа умопостигаемую форму. [Дунс Скот](/konspekty/filosofiya/skholastika/ioann-duns-skot/) различает интуитивное познание, схватывающее присутствующую вещь, и абстрактивное ([Разум и чувства](/konspekty/filosofiya/razum-i-chuvstva)).
+- Августин: чувства дают повод, но истину душа видит в свете, идущем от Бога. Фома: ум извлекает из чувственного образа умопостигаемую форму. [Дунс Скот](/konspekty/filosofiya/srednevekove/ioann-duns-skot/) различает интуитивное познание, схватывающее присутствующую вещь, и абстрактивное ([Разум и чувства](/konspekty/filosofiya/razum-i-chuvstva)).
 - [Николай Кузанский](/konspekty/filosofiya/vozrozhdenie/nikolay-kuzanskiy/), [О незнании](/konspekty/filosofiya/vozrozhdenie/nikolay-kuzanskiy/o-neznanii): самое совершенное постижение — явить высшую учёность в собственном незнании. Корень знающего незнания — в неуловимости точной истины.
 - [Фрэнсис Бэкон](/konspekty/filosofiya/novoe-vremya/frensis-bekon/): перед опытом нужно очистить разум. Идолы бывают врождёнными и приобретёнными, и они мешают уму ([Великое восстановление наук, Разделение наук](/konspekty/filosofiya/novoe-vremya/frensis-bekon/velikoe-vosstanovlenie-nauk-razdelenie-nauk)).
 

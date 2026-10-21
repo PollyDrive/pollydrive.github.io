@@ -1,10 +1,8 @@
 ---
 title: "Пролепсис"
 tags:
+  - "античная философия"
   - "эпикурейцы"
-  - "предпонятие"
-  - "критерий"
-  - "ощущение"
 ---
 
 ## Суть
@@ -22,5 +20,5 @@ tags:
 
 - [Платон](/konspekty/filosofiya/antichnoe-vremya/platon/) объяснял способность узнавать припоминанием; у Эпикура знание понятий эмпирично, оно из опыта. По сути пролепсис отвечает на вопрос, как мы вообще ищем то, чего не знаем.
 - [Стоики](/konspekty/filosofiya/antichnoe-vremya/stoiki/) приняли термин и говорили о естественных понятиях; спор шёл о том, что считать в них природным, а что приобретённым.
-- [Скептики](/konspekty/filosofiya/antichnoe-vremya/skeptiki/) возразит, что общее понятие тоже может быть ложным обобщением, [Тропы Агриппы](/konspekty/filosofiya/antichnoe-vremya/skeptiki/tropy-agrippy)).
+- [Скептики](/konspekty/filosofiya/antichnoe-vremya/skeptiki/) возразят, что общее понятие тоже может быть ложным обобщением, [Тропы Агриппы](/konspekty/filosofiya/antichnoe-vremya/skeptiki/tropy-agrippy)).
 - Через пролепсис [Эпикурейцы](/konspekty/filosofiya/antichnoe-vremya/epikureytsy/) объясняют и ложные мнения: они возникают, когда к понятию добавляют лишнее ([Боги Эпикура](/konspekty/filosofiya/antichnoe-vremya/epikureytsy/bogi-epikura)).

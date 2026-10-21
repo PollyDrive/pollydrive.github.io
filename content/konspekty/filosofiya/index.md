@@ -10,6 +10,18 @@ date: 2026-10-07
 
 [Предмет философии](/konspekty/filosofiya/predmet-filosofii)
 
+---
+
+### Периоды
+
+- [Античное время](/konspekty/filosofiya/antichnoe-vremya/) <span class="hub-meta"><time datetime="2026-10-07">7 октября 2026</time></span>
+- [Средневековье](/konspekty/filosofiya/srednevekove/) <span class="hub-meta"><time datetime="2026-01-27">27 января 2026</time></span>
+- [Возрождение](/konspekty/filosofiya/vozrozhdenie/) <span class="hub-meta"><time datetime="2026-03-15">15 марта 2026</time></span>
+- [Новое время](/konspekty/filosofiya/novoe-vremya/) <span class="hub-meta"><time datetime="2026-05-26">26 мая 2026</time></span>
+- [Просвещение](/konspekty/filosofiya/prosveshchenie/)
+- [Современность](/konspekty/filosofiya/sovremennost/) <span class="hub-meta"><time datetime="2026-07-18">18 июля 2026</time></span>
+---
+
 ### Общие Понятия
 
 - [Разум и чувства](/konspekty/filosofiya/razum-i-chuvstva) aka Рационализм и Эмпиризм <span class="hub-meta">[философия](/tags/философия) [гносеология](/tags/гносеология)</span>
@@ -26,15 +38,6 @@ date: 2026-10-07
 - [Когерентность](/konspekty/filosofiya/kogerentnost)
 - [Тождество](/konspekty/filosofiya/tozhdestvo) <span class="hub-meta">[философия](/tags/философия) [онтология](/tags/онтология) [логика](/tags/логика)</span>
 - [Познание](/konspekty/filosofiya/poznanie) <span class="hub-meta">[философия](/tags/философия) [гносеология](/tags/гносеология)</span>
----
-
-### Периоды
-
-- [Античное время](/konspekty/filosofiya/antichnoe-vremya/) <span class="hub-meta"><time datetime="2026-10-07">7 октября 2026</time></span>
-- [Схоластика](/konspekty/filosofiya/skholastika/) <span class="hub-meta"><time datetime="2026-01-27">27 января 2026</time></span>
-- [Возрождение](/konspekty/filosofiya/vozrozhdenie/) <span class="hub-meta"><time datetime="2026-03-15">15 марта 2026</time></span>
-- [Новое время](/konspekty/filosofiya/novoe-vremya/) <span class="hub-meta"><time datetime="2026-05-26">26 мая 2026</time></span>
-- [Современность](/konspekty/filosofiya/sovremennost/) <span class="hub-meta"><time datetime="2026-07-18">18 июля 2026</time></span>
 ---
 
 ### Факультатив

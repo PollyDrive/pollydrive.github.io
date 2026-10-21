@@ -21,6 +21,6 @@ tags:
 ## Споры и связи
 
 - Против аристотелевского бога как мышления: для Плотина мышление уже умножает ([Неподвижный перводвигатель](/konspekty/filosofiya/antichnoe-vremya/aristotel/nepodvizhnyy-pervodvigatel)).
-- Для христианской мысли — важное наследство: апофатическое богословие Григория Нисского, Псевдо-Дионисия Ареопагита, позже [Экхарта](/konspekty/filosofiya/skholastika/mayster-ekkhart/) и [Николая Кузанского](/konspekty/filosofiya/vozrozhdenie/nikolay-kuzanskiy/). Схожие ходы в иудейском (Маймонид) и арабском богословии.
+- Для христианской мысли — важное наследство: апофатическое богословие Григория Нисского, Псевдо-Дионисия Ареопагита, позже [Экхарта](/konspekty/filosofiya/srednevekove/mayster-ekkhart/) и [Николая Кузанского](/konspekty/filosofiya/vozrozhdenie/nikolay-kuzanskiy/). Схожие ходы в иудейском (Маймонид) и арабском богословии.
 - Опирается на учение о [Едином](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/edinoe); выход из Единого описывается образами, [Эманация](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/emanatsiya).
 - У Прокла в [«Первоосновах теологии»](/konspekty/filosofiya/antichnoe-vremya/neoplatoniki/prokl/pervoosnovy-teologii) апофатика сочетается с жёсткой иерархией.
